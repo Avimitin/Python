@@ -32,7 +32,8 @@ while var == 1:
     try:
         str2 = int(input('请输入一个任意数字:'))
     except ValueError:
-        print('请输入数字！程序重启！\n')
+        print('请输入数字！请按下回车重启程序！\n')
+        input()
         continue
 # 输入类型判断
 # input() 默认输入String类型

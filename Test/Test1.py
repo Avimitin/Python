@@ -22,3 +22,7 @@ print(y, end="")
 print(z, end="")
 
 print(a, b, c)
+
+list1 = [123, 'abc', 'wtf']
+print(list1[3])
+print()
