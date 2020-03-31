@@ -24,5 +24,12 @@ print(z, end="")
 print(a, b, c)
 
 list1 = [123, 'abc', 'wtf']
-print(list1[3])
+print(list1[2])
 print()
+
+abc = {'1': 'a', '2': 'b', '3': 'c'}
+print('字典abc的第二位是', abc['2'])
+diction = {}
+input_dic = input('添加一个元素：\n')
+diction['xz'] = input_dic
+print('新增加的字典元素是：', diction['xz'])
