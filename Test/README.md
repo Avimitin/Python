@@ -22,7 +22,10 @@
 - [x] File 输出读取
 
 - Test6
-- [ ] JSON
+- [x] JSON
 
 - Test7
+- [ ] Yaml
+
+- Test8
 - [ ] 正则
