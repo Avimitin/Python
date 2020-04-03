@@ -60,10 +60,17 @@ telephone_book(num=num2, name=name2, phone=phone2)  # 做好标识符可以打�
 
 
 def test(aa, b, vd, *var):
-    """*号后传入的数据指向元组类"""
-    # sum = aa + b + vd + var
+    """*号后传入的数据指向元组类
+    所以如果想加多余值不可以直接sum = aa + b + vd + var
+    需要使用循环语句将元组内数字传出"""
     print(aa + b + vd)
     print(var)
+    count = len(var)
+    num = 0
+    while count != 0:
+        num += var[count-1]
+        count -= 1
+    sum= aa + b + vd + num
     return sum
 
 
