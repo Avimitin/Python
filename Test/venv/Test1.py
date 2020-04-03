@@ -23,9 +23,9 @@ print(z, end="")
 
 print(a, b, c)
 
-list1 = [123, 'abc', 'wtf']
+list1 = [123,123, 'abc', 'wtf']
 print(list1[2])
-print()
+print(list1)
 
 abc = {'1': 'a', '2': 'b', '3': 'c'}
 print('字典abc的第二位是', abc['2'])
