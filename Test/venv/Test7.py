@@ -6,4 +6,5 @@ test_dic = {}
 with open('test.yml','r+') as test_file:
     test_dic = yaml.load(test_file,Loader=yaml.FullLoader)
 print(str(test_dic))
-print(test_dic["phone"][0])
+print(test_dic.keys())
+print(list(test_dic.keys())[1])

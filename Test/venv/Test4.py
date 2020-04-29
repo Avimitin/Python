@@ -70,7 +70,7 @@ def test(aa, b, vd, *var):
     while count != 0:
         num += var[count-1]
         count -= 1
-    sum= aa + b + vd + num
+    sum = aa + b + vd + num
     return sum
 
 
@@ -82,3 +82,13 @@ print(test(1, 2, 3))
 test2 = lambda aa, b, vd: aa + b + vd
 print("lambda是用来写简单函数的def")
 print(test2(1, 2, 3))
+
+
+def product(x, *y):
+    if y == ():
+        return x
+    else:
+        pro_sum = x
+        for unit in y:
+            pro_sum = pro_sum*unit
+        return pro_sum
