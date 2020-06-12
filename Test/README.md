@@ -56,3 +56,15 @@
 
 - Test13
 - [ ] request 和 urllib
+
+- Test14
+- [x] `if...else` 的快速简单用法
+
+- Test15
+- [x] 定时任务模块 `scheduler`
+
+- Test16
+- [x] `collection.namedtuple`
+
+- Test17
+- [x] 优雅的批量函数赋值
