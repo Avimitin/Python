@@ -1,5 +1,4 @@
-Test/venv
-Test/.vscode
-Test/.idea
+*/.vscode
+*/.idea
 .vscode
-FluentPythonExample/venv
+*/venv
