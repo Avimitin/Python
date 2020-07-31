@@ -17,7 +17,7 @@ class Solution:
             else: return mid
         return -1
     '''
- 
+    '''
     def twoSum(self, nums, target):
         for i in range(len(nums)):
             x = target - nums[i]
@@ -26,8 +26,20 @@ class Solution:
                 if index == i: continue
                 else:
                     return [i, index]
+    '''
+
+    def twoSum(self, nums, target):
+        for i in range(len(nums)):
+            x = target - nums[i]
+            if x in nums:
+                index = nums.index(x)
+                while index == i:
+                    index = nums.index(x, index)
+
+        return [i, index]
+
 
 if __name__ == "__main__":
     t = Solution()
-    r = t.twoSum([3,2,4], 6)
+    r = t.twoSum([3, 2, 4], 6)
     print(r)
